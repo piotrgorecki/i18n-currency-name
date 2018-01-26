@@ -1,0 +1,24 @@
+{
+  "name": "i18n-currency-name",
+  "version": "0.1.0",
+  "description": "Translate currency code (ISO 4217) to localized currency name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrgorecki/i18n-currency-name.git"
+  },
+  "keywords": [
+    "i18n",
+    "currency",
+    "ISO4217"
+  ],
+  "author": "Piotr Górecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piotrgorecki/i18n-currency-name/issues"
+  },
+  "homepage": "https://github.com/piotrgorecki/i18n-currency-name#readme"
+}
