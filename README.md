@@ -1,16 +1,16 @@
 # i18n-currency-name
-Translate the currency code ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) to the localized currency name.
+![](https://img.shields.io/npm/v/@piotrgorecki/i18n-currency-name.svg)
 
-## Installing
+Translates the currency code ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) to the localized currency name.
 
-At this moment, only github as the source is supported. NPM package is planning in the future.
+## Install
 
 ```
-npm i https://github.com/piotrgorecki/i18n-currency-name
+npm install @piotrgorecki/i18n-currency-name
+yarn add @piotrgorecki/i18n-currency-name
 ```
 
-## ISO to name
-*Get the translated name of a currency by it's ISO 4217 code*
+## Usage
 
 ```js
 var currencyToName = require("i18n-currency-name");
@@ -19,8 +19,11 @@ currencyToName("USD", "en")  // "US Dollar"
 currencyToName("USD", "pl")  // "Dolar Amerykański"
 currencyToName("PLN", "en")  // "Polish Zloty"
 currencyToName("PLN", "pl")  // "Złoty"
-currencyToName("AAA", "oo")  // undefined
+currencyToName("XYZ", "en")  // undefined
+currencyToName("USD", "xyz") // undefined
 ```
 
-## Supported locals
+### Supported locals
+```js
 ["en", "pl"]
+```
