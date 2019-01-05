@@ -7,15 +7,15 @@ Translates the currency code ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
 
 ## Install
 
-```
-npm install @piotrgorecki/i18n-currency-name
-yarn add @piotrgorecki/i18n-currency-name
+```sh
+$ npm install @piotrgorecki/i18n-currency-name
+$ yarn add @piotrgorecki/i18n-currency-name
 ```
 
 ## Usage
 
 ```js
-var currencyToName = require("i18n-currency-name");
+var currencyToName = require("@piotrgorecki/i18n-currency-name");
 
 currencyToName("USD", "de")  // "Dollar"
 currencyToName("USD", "en")  // "US Dollar"
