@@ -1,5 +1,7 @@
 # i18n-currency-name
 ![](https://img.shields.io/npm/v/@piotrgorecki/i18n-currency-name.svg)
+[![install size](https://packagephobia.now.sh/badge?p=@piotrgorecki/i18n-currency-name)](https://packagephobia.now.sh/result?p=@piotrgorecki/i18n-currency-name)
+
 
 Translates the currency code ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) to the localized currency name.
 
