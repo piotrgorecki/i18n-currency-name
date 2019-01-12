@@ -1,6 +1,6 @@
 {
   "name": "@piotrgorecki/i18n-currency-name",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Translate currency code (ISO 4217) to localized currency name.",
   "main": "index.js",
   "scripts": {
