@@ -9,6 +9,7 @@ var it = require("./langs/it");
 var ja = require("./langs/ja");
 var ko = require("./langs/ko");
 var lt = require("./langs/lt");
+var nb = require("./langs/nb");
 var pl = require("./langs/pl");
 var pt = require("./langs/pt");
 var ro = require("./langs/ro");
@@ -30,6 +31,7 @@ var dictionaries = {
   ja,
   ko,
   lt,
+  nb,
   pl,
   pt,
   ro,

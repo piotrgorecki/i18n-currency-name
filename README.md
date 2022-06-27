@@ -27,5 +27,5 @@ currencyToName("USD", "xyz") // undefined
 
 ### Supported locals
 ```js
-["da", "de", "el", "en", "es", "fi", "fr", "it", "ja", "ko", "lt", "pl", "pt", "ro", "sv", "tr", "ua", "ur", "zh"]
+["da", "de", "el", "en", "es", "fi", "fr", "it", "ja", "ko", "lt", "nb", "pl", "pt", "ro", "sv", "tr", "ua", "ur", "zh"]
 ```

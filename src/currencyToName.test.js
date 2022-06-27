@@ -25,6 +25,9 @@ describe("USD", () => {
   test("it", () => {
     expect(currencyToName("USD", "it")).toBe("Dollaro statunitense");
   });
+  test("nb", () => {
+    expect(currencyToName("USD", "nb")).toBe("Amerikansk dollar");
+  });
   test("ja", () => {
     expect(currencyToName("USD", "ja")).toBe("アメリカ合衆国ドル");
   });
