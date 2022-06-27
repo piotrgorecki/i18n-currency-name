@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/piotrgorecki/i18n-currency-name#readme",
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "jest": "^23.6.0"
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1"
   }
 }
